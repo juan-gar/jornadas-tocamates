@@ -1,0 +1,10 @@
+@media only screen and (max-width : 480px) {
+	.container-fluid img {
+		height: 0.8em;
+		width: 5em;
+	}
+
+	.container-fluid {
+		padding-top: 10px;
+	}
+}

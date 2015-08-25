@@ -1,0 +1,149 @@
+* {
+	box-sizing: border-box;
+}
+/****** Fonts *******/
+
+@font-face {
+	font-family: "Lumen";
+	src: url(../fonts/lumen/Lumen-Full.ttf);
+}
+
+@font-face {
+	font-family: "Huruf bold";
+	src: url(../fonts/huruf_miranti/Huruf_miranti_bold.ttf);
+}
+
+
+
+/***** HOME *****/
+
+/*** Adjustments to the grid ***/
+
+#thumbs img {
+	width: 200px;
+	height: 200px;
+}
+
+.container {
+	text-align: center;
+	padding-top: 60px;
+}
+
+
+
+#thumbs h2 {
+	font-family: "Huruf bold", sans-serif;
+	font-weight: 700;
+	padding-bottom: 20px;
+	font-size: 40px;
+}
+
+#thumbs p, .nav {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+
+
+
+/*** Adjustments to the NAVBAR ***/
+
+.navbar-brand {
+	/*height: 100px;*/
+	font-family: 'Indie Flower';
+	font-size: 50px;
+}
+
+
+.container-fluid {
+	background-image: url(../img/cabecera.jpg);
+	z-index: 3;
+	min-height: 80px;
+}
+
+.container-fluid img {
+	height: 60px;
+	margin-top: -5px;
+}
+
+.navbar-right {
+	padding-top: 15px;
+	font-family: "Huruf bold";
+	font-size: 20px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: yellow;
+    font-size: 27px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    text-decoration: underline;
+}
+
+/**** Resto espacio al carousel ****/
+.carousel-inner {
+	margin-top: -22px;
+}
+
+
+
+/*** Sections  HOME***/
+
+#visitaelblog {
+	background-color: #FFBA08;
+	min-height: 300px;
+	text-align: center;
+}
+
+#visitaelblog img {
+	height: 30px;
+	width: 30px;
+	display: inline;
+}
+
+#visitaelblog .btn-success {
+	font-size: 25px;
+	margin-top: 130px;
+	font-family: "Lumen";
+	display: inline;
+	font-weight: 700;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#thumbs {
+	background-image: url(../img/reciclado.jpg);
+	padding-bottom: 50px;
+}
+
+
+
+
+/****** ABOUT *****/
+
+#joseangel {
+	background-color: #E8AA14;
+}
+
+#joseangel img {
+	border-radius: 15px 15px 15px 15px;
+}
+
+.textojoseangel {
+	font-size: 16px;
+	padding-top: 60px;
+}
+
+.botonted {
+	color: red;
+}
+
+
+
+
+
+
+

@@ -13,6 +13,11 @@
 	src: url(../fonts/huruf_miranti/Huruf_miranti_bold.ttf);
 }
 
+@font-face {
+	font-family: "Montserrat";
+	src: url(../fonts/montserrat/Montserrat-Regular.otf);
+}
+
 
 
 /***** HOME *****/

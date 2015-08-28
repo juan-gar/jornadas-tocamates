@@ -31,19 +31,23 @@
 
 
 
-#thumbs h2 {
+#thumbs h2, #actividades h3 {
 	font-family: "Huruf bold", sans-serif;
 	font-weight: 700;
 	padding-bottom: 20px;
 	font-size: 40px;
 }
 
-#thumbs p, .nav {
+#thumbs p, #actividades p, #contact h2 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 }
 
-
+#actividades h3 {
+	color: #800080;
+	letter-spacing: 0.2em;
+	font-size: 5em;
+}
 
 
 /*** Adjustments to the NAVBAR ***/
@@ -79,6 +83,11 @@
 
 .navbar-default .navbar-nav>li>a:hover {
     text-decoration: underline;
+    color: white;
+}
+
+.selected {
+	text-decoration: underline;
 }
 
 /**** Resto espacio al carousel ****/
@@ -110,9 +119,10 @@
 	font-weight: 700;
 }
 
-a:hover {
-	text-decoration: none;
-}
+/*a:hover {
+	text-decoration: underline;
+	color: yellow;
+}*/
 
 #thumbs {
 	background-image: url(../img/reciclado.jpg);
@@ -125,12 +135,25 @@ a:hover {
 /****** ABOUT *****/
 
 #joseangel {
-	background-color: #E8AA14;
+	background-color: #3F88C5;
+	font-family: "Montserrat";
+	margin-top: -60px;
+}
+
+#joseangel h2 {
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 #joseangel img {
 	border-radius: 15px 15px 15px 15px;
 }
+
+.botoneslink {
+	margin-bottom: 40px;
+}
+
+
 
 .textojoseangel {
 	font-size: 16px;
@@ -141,9 +164,96 @@ a:hover {
 	color: red;
 }
 
+/******* EN TU COLE ******/
+
+#issuusec {
+	background-color: #e6e6fa;
+	color: orange;
+	font-family: "Huruf bold";
+	font-size: 3.5em;
+	margin-top: -60px;
+}
+
+
+iframe {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#actividades {
+	text-align: center;
+	background: url(../img/reciclado.jpg) no-repeat center;
+	background-size: cover;
+}
+
+#actividades img {
+	margin-bottom: 20px;
+}
+
+#actividades h3 {
+	margin-top: 0;
+}
 
 
 
+/****** CONTACT ******/
+
+#contact {
+	background: url(../img/reciclado.jpg) no-repeat center;
+	background-size: cover;
+	margin-top: -60px;
+}
 
 
 
+.parent {
+  position: relative;
+  height: 139px;
+}
+
+.parent div {
+  position: absolute;
+  top: 50%;
+  height: 139px;
+  transform: translateY(-50%);
+}
+
+.verticalcenter {
+	padding-top: 10%;
+	text-align: center;
+}
+
+.tablecenter {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td:first-child {
+	padding-right: 10%;
+}
+
+
+/****** Footer ******/
+
+footer {
+	min-height: 70px;
+	background-color: #FFBA08;
+	color: white;
+	font-family: "Montserrat";
+	text-align: center;
+	font-size: 0.9em;
+}
+
+footer .container {
+	padding-top: 10px;
+}
+
+.credits {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.borderhelper {
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+}
